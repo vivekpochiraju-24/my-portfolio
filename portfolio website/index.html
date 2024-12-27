@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Pochiraju | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo-container">
+                <div class="logo">VP</div>
+                <div class="logo-text">
+                    <span class="name">Vivek Pochiraju</span>
+                    <span class="title">Full Stack Developer</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="section-padding">
+        <div class="hero">
+            <h1>Hi, I'm <span class="highlight">Vivek Pochiraju</span></h1>
+            <div class="animated-text">
+                <span class="text-rotate"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <!-- Frontend Skills -->
+            <div class="skill-card">
+                <h3 class="skill-title">Frontend Development</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <span>HTML5/CSS3</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>React.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="skill-card">
+                <h3 class="skill-title">Backend Development</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <span>Node.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Express.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>MongoDB</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="82%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Skills -->
+            <div class="skill-card">
+                <h3 class="skill-title">Other Skills</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <span>Git & GitHub</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>RESTful APIs</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>UI/UX Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="light-effect"></div>
+                <h3>Project 1</h3>
+                <p>Description of project 1</p>
+            </div>
+            <div class="project-card">
+                <div class="light-effect"></div>
+                <h3>Project 2</h3>
+                <p>Description of project 2</p>
+            </div>
+            <div class="project-card">
+                <div class="light-effect"></div>
+                <h3>Project 3</h3>
+                <p>Description of project 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <h2 class="section-title">Contact Me</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" required>
+                <label for="name">Name</label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+                <textarea id="message" required></textarea>
+                <label for="message">Message</label>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
